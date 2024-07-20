@@ -1,0 +1,104 @@
+
+:root {
+    --background-rgb: rgb(228, 241, 251);
+    --beige-rgb: rgb(250, 246, 240); 
+    --yellow-rgb: rgb(247, 204, 71);
+    --dark-blue-rgb: rgb(46, 49, 146);
+    --white-rgb: rgb(255, 255, 255);
+    --green-rgb: #93B963;
+    --red-rgb: #B13C34;
+    --dark-green-rgb: #6EAD66;
+    --orange-rgb: #E89145;
+    --pink-rgb: #D13382;
+    --black-rgb: #000;
+    --brown-rgb: #EEB973;
+    --border-width: 3px;
+    --border-regular: 3px solid black;
+    --radius-regular: 20px;
+    --text-shadow-white-thick:   
+        -3px -3px 0 white,  
+        3px -3px 0 white,
+        -3px 3px 0 white,
+        3px 3px 0 white;
+    --text-shadow-white-thick:   
+        -3px -3px 0 var(--white-rgb),
+        -3px 0px 0 var(--white-rgb),
+        -3px 3px 0 var(--white-rgb),
+        0px -3px 0 var(--white-rgb), 
+        0px 3px 0 var(--white-rgb),
+        3px -3px 0 var(--white-rgb),
+        3px 0px 0 var(--white-rgb),
+        3px 3px 0 var(--white-rgb);
+      --text-shadow-dark-blue-thick:   
+        -3px -3px 0 var(--dark-blue-rgb),
+        -3px 0px 0 var(--dark-blue-rgb),
+        -3px 3px 0 var(--dark-blue-rgb),  
+        0px -3px 0 var(--dark-blue-rgb),  
+        0px 3px 0 var(--dark-blue-rgb),  
+        3px -3px 0 var(--dark-blue-rgb),  
+        3px 0px 0 var(--dark-blue-rgb),
+        3px 3px 0 var(--dark-blue-rgb);
+        --text-shadow-dark-blue-slim:   
+        -2.5px -2.5px 0 var(--dark-blue-rgb),
+        -2.5px 0px 0 var(--dark-blue-rgb),
+        -2.5px 2.5px 0 var(--dark-blue-rgb),  
+        0px -2.5px 0 var(--dark-blue-rgb),  
+        0px 2.5px 0 var(--dark-blue-rgb),  
+        2.5px -2.5px 0 var(--dark-blue-rgb),  
+        2.5px 0px 0 var(--dark-blue-rgb),
+        2.5px 2.5px 0 var(--dark-blue-rgb);
+  }
+  
+  @font-face {
+    font-family: 'CookieSupplyRegular';
+    src: url('/fonts/CookieSupplyRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham-Medium.otf') format('opentype');
+    font-weight: medium;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GothamXNarrow';
+    src: url('/fonts/GothamXNarrow-Medium.otf') format('opentype');
+    font-weight: medium;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GothamXNarrow';
+    src: url('/fonts/GothamXNarrow-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GothamXNarrow';
+    src: url('/fonts/GothamXNarrow-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .pure {
+    color: black;
+  }
+  
